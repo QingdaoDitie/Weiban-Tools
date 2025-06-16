@@ -106,7 +106,7 @@ def recon_image(image_base64):
     - 识别结果 (str): 返回识别的文字结果或错误消息。
     """
     api_url = 'https://api.jfbym.com/api/YmServer/customApi'
-    token = "JD028Whu85vhilSkxMmq_2-JpTLtEAc8agfCOYvWfE8"
+    token = ""
     type_code = '10110'
     payload = {
         'image': image_base64,
